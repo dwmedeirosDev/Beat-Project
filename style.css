@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1536px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 15px;
+    background-color: #129799;
+}
+
+main{
+    padding-top: 50px;
+    background-color: #FFA185;
+}
+
+/* ##### HEADER ##### */
+
+.conteiner-menu{
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.conteiner-menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.conteiner-menu a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.conteiner-menu a:hover{
+    color: black
+}
+
+.conteiner-menu2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.slogan h1{
+    color: white;
+    font-size: 3.4rem;
+    font-weight: 500;
+}
+
+.conteiner-menu3{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.conteiner-menu3 ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.conteiner-menu3 a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.conteiner-menu3 a:hover{
+    color: black
+}
+
+/* ##### RESPONSIVE HEADER ##### */
+
+@media (max-width: 1243px){
+    .slogan{
+        display: none;
+    }
+}
+
+@media (max-width: 703px){
+    .conteiner-menu a{
+        font-size: 1rem;
+}
+
+    .life img{
+        width: 95%;
+        display: flex;
+        margin: 0 auto;  
+    }
+}
+
+.conteiner-menu3 a{
+    font-size: 1rem;
+}
+
+@media (max-width: 553px){
+    .conteiner-menu a{
+        font-size: 0.9rem;
+}
+
+    .conteiner-menu3 a{
+        font-size: 0.9rem;
+}
+}
+
+
+/* ##### MAIN ##### */
+
+.conteiner-main h1{
+    padding-left: 60px;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.conteiner-main p{
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.conteiner-imgs{
+    width: 100%;
+}
+
+.conteiner-imgs figure{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.all-img{
+    width: 732px;
+    height: 450px;
+    object-fit: cover;
+    padding: 25px;
+}
+
+/* ##### RESPONSIVE MAIN ##### */
+
+
+@media (max-width: 1463px){
+    .conteiner-main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .conteiner-main h1{
+        text-align: center;
+    }
+
+    .conteiner-main p{
+        text-align: center;
+    }
+
+@media (max-width: 799px){
+    .all-img{
+        width: 85%;
+        height: 82%;
+    }
+}
+
