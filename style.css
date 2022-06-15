@@ -23,6 +23,11 @@ main{
     background-color: #FFA185;
 }
 
+footer{
+    background-color: #129799;
+}
+
+
 /* ##### HEADER ##### */
 
 .conteiner-menu{
@@ -137,6 +142,7 @@ main{
 
 .conteiner-imgs{
     width: 100%;
+    padding-bottom: 30px;
 }
 
 .conteiner-imgs figure{
@@ -150,6 +156,12 @@ main{
     height: 450px;
     object-fit: cover;
     padding: 25px;
+    transition: 0.8s all;
+}
+
+.all-img:hover{
+    border-radius: 50px;
+    transform: scale(1.1);
 }
 
 /* ##### RESPONSIVE MAIN ##### */
@@ -166,8 +178,10 @@ main{
     }
 
     .conteiner-main p{
+        margin-left: -60px;
         text-align: center;
     }
+}
 
 @media (max-width: 799px){
     .all-img{
@@ -176,3 +190,49 @@ main{
     }
 }
 
+
+/* ##### FOOTER ##### */
+
+.conteiner-social-media figure{
+    display: flex;
+    justify-content: space-evenly;
+    width: 280px;
+    margin-left: 20%;
+}
+
+.img-media{
+    width: 30px;
+    transition: 0.1s all;
+}
+
+.img-media:hover{
+    transform: scale(1.1);
+}
+
+.conteiner-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+.conteiner-nav{
+    width: 600px;
+}
+
+.conteiner-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.conteiner-nav a{
+    color: white;
+    font-size: 1rem;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.conteiner-nav a:hover{
+    color: black
+}
