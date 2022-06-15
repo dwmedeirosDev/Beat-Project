@@ -30,6 +30,7 @@ footer{
 
 /* ##### HEADER ##### */
 
+
 .conteiner-menu{
     width: 50%;
     margin: 0 auto;
@@ -88,7 +89,9 @@ footer{
     color: black
 }
 
+
 /* ##### RESPONSIVE HEADER ##### */
+
 
 @media (max-width: 1243px){
     .slogan{
@@ -99,31 +102,40 @@ footer{
 @media (max-width: 703px){
     .conteiner-menu a{
         font-size: 1rem;
-}
+    }
 
     .life img{
         width: 95%;
         display: flex;
         margin: 0 auto;  
     }
-}
-
-.conteiner-menu3 a{
-    font-size: 1rem;
+    
+    .conteiner-menu3 a{
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 553px){
     .conteiner-menu a{
         font-size: 0.9rem;
-}
+    }
+
+    .conteiner-menu{
+        width: 80%;
+    }
+
+    .conteiner-menu3{
+        width: 100%;
+    }
 
     .conteiner-menu3 a{
         font-size: 0.9rem;
-}
+    }
 }
 
 
 /* ##### MAIN ##### */
+
 
 .conteiner-main h1{
     padding-left: 60px;
@@ -156,13 +168,13 @@ footer{
     height: 450px;
     object-fit: cover;
     padding: 25px;
-    transition: 0.8s all;
+    transition: 0.5s all;
 }
 
 .all-img:hover{
-    border-radius: 50px;
     transform: scale(1.1);
 }
+
 
 /* ##### RESPONSIVE MAIN ##### */
 
@@ -193,6 +205,14 @@ footer{
 
 /* ##### FOOTER ##### */
 
+
+.conteiner-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
 .conteiner-social-media figure{
     display: flex;
     justify-content: space-evenly;
@@ -207,13 +227,6 @@ footer{
 
 .img-media:hover{
     transform: scale(1.1);
-}
-
-.conteiner-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
 }
 
 .conteiner-nav{
@@ -235,4 +248,26 @@ footer{
 
 .conteiner-nav a:hover{
     color: black
+}
+
+
+/* ##### RESPONSIVE FOOTER ##### */
+
+
+@media (max-width: 671px){
+    .conteiner-footer{
+        flex-direction: column;
+    }
+
+    .conteiner-social-media{
+        margin-bottom: 10px;
+    }
+
+    .conteiner-social-media figure{
+        margin: 0 auto;
+    }
+
+    .conteiner-nav{
+        width: 100%;
+    }
 }
