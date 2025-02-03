@@ -2,6 +2,8 @@
 
 Este projeto é uma página web que explora os temas de arte, design, estilo e música. A página foi construída usando HTML e CSS para exibir imagens, vídeos e um layout responsivo que se adapta a diferentes tamanhos de tela.
 
+---
+
 ### Tecnologias utilizadas 💻
 
 **HTML5**: Para a estruturação do conteúdo da página.  
