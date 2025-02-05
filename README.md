@@ -1,4 +1,4 @@
-## Projeto "Beat" - Portfólio de Arte, Design e Música 🎨🎶
+## Projeto Beat
 
 Este projeto é uma página web que explora os temas de arte, design, estilo e música. A página foi construída usando HTML e CSS para exibir imagens, vídeos e um layout responsivo que se adapta a diferentes tamanhos de tela.
 
@@ -7,6 +7,7 @@ Este projeto é uma página web que explora os temas de arte, design, estilo e m
 ### Tecnologias utilizadas 💻
 
 **HTML5**: Para a estruturação do conteúdo da página.  
+
 **CSS3**: Para o design e estilo da página.
 
 ---
@@ -43,9 +44,3 @@ Para visualizar o projeto localmente, siga os seguintes passos:
 ### Imagens 🖼️
 
 As imagens utilizadas no projeto podem ser encontradas na pasta `images/` dentro do repositório. Certifique-se de que as imagens estejam localizadas corretamente para que apareçam nas páginas.
-
----
-
-### Contribuições 🤝
-
-Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **issue** ou submeter um **pull request**.
